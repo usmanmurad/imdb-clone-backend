@@ -153,13 +153,25 @@ WSGI_APPLICATION = 'myIMDB.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'd2ju697v8lrshj',
+#         'USER': 'lapatpixgukgvi',
+#         'PASSWORD': 'c484bcf55d0895e18b09fb614cbf79981d3c33f2e0bfa4cb5d5eb58ff5b79e4e',
+#         'HOST': 'ec2-35-175-17-88.compute-1.amazonaws.com',
+#         'PORT': '5432',
+#     }
+# }
+
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd2ju697v8lrshj',
-        'USER': 'lapatpixgukgvi',
-        'PASSWORD': 'c484bcf55d0895e18b09fb614cbf79981d3c33f2e0bfa4cb5d5eb58ff5b79e4e',
-        'HOST': 'ec2-35-175-17-88.compute-1.amazonaws.com',
+        'NAME': 'myIMDB',
+        'USER': 'postgres',
+        'PASSWORD': 'usman',
+        'HOST': '127.0.0.1',
         'PORT': '5432',
     }
 }
